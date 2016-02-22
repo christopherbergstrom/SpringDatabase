@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel = "stylesheet" type = "text/css" href = "normalize.css"/>
+<link rel = "stylesheet" type = "text/css" href = "SpringDataBase.css"/>
+<title>SQL Search</title>
+</head>
+<body>
+	<h1>Company DB</h1>
+	<form class = "first" action = "select.do" method = "GET">
+		<input class = "buttons" type = "submit" value = "Assignments"/>
+		<input type = "hidden" name = "select" value = "select * from assignments;"/>
+	</form>
+	<form class = "first" action = "select.do" method = "GET">
+		<input class = "buttons" type = "submit" value = "Departments"/>
+		<input type = "hidden" name = "select" value = "select * from departments;"/>
+	</form>
+	<form class = "first" action = "select.do" method = "GET">
+		<input class = "buttons" type = "submit"value = "Employees"/>
+		<input type = "hidden" name = "select" value = "select * from employees;"/>
+	</form>	
+	<form class = "first" action = "select.do" method = "GET">
+		<input class = "buttons" type = "submit" value = "Jobs"/>
+		<input type = "hidden" name = "select" value = "select * from jobs;"/>
+	</form>
+	<form class = "first" action = "select.do" method = "GET">
+		<input class = "buttons" type = "submit" value = "Locations"/>
+		<input type = "hidden" name = "select" value = "select * from locations;"/>
+	</form>
+	<form class = "first" action = "select.do" method = "GET">
+		<input class = "buttons" type = "submit" value = "Projects"/>
+		<input type = "hidden" name = "select" value = "select * from projects;"/>
+	</form>
+	<br>
+	<form method="GET" action="query.do">
+		<input id = "text1" class = "textField" type="text" name="select" placeholder = "SELECT"/>
+		<input class = "buttons" type="submit" value="Go"/>
+	</form>
+	<form method="GET" action="update.do">
+		<input class = "textField" type="text" name="select" placeholder = "INSERT, UPDATE, DELETE"/>
+		<input class = "buttons" type="submit" value="Go"/>
+	</form>
+</body>
+</html>

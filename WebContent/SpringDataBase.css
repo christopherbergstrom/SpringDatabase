@@ -1,0 +1,73 @@
+body
+{
+  font-family: fantasy;
+  background-color: #f2f2f2;
+  text-align: center;
+  margin-bottom: 5em;
+}
+h1
+{
+	text-align: left;
+	font-size: 3em;
+	padding-left: 1em;
+	background-color: #4dc4ff;
+	margin: 0;
+}
+div
+{
+	margin-top: 1em;
+	text-align: center;
+	font-weight: bold;
+	font-size: 3em;
+}
+.textField
+{
+	border: none;
+	outline: none;
+	box-shadow: none;
+}
+#text1
+{
+	margin-top: 10em;
+}
+.buttons
+{
+	border: none;
+	padding: 5px 20px;
+	color: black;
+	background-color: white;
+	text-align: center;
+	font-size: 1em;
+	margin: 0;
+}
+.buttons:hover
+{
+	background-color: #d9d9d9;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.first
+{
+	display: inline;
+	margin: 0;
+	float: left;
+	padding-left: 1em;
+}
+form
+{
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+#resultsButton
+{
+	margin-right: 0;
+}
+table, th, td
+{
+  /* border: 1px solid; */
+  border-style: solid groove solid ridge;
+  /* border-style: solid ridge solid groove; */
+  padding: 5px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
